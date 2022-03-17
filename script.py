@@ -11,8 +11,10 @@ def store_agenda_in_file(url):
       json.dump(agendas, f, indent=4)
    print("> stored")
 
+# store_agenda_in_file(url)
+
 def pie(labels, sizes, title):
-   colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral', 'red']
+   colors = ['#800000', '#9A6324', '#808000', '#469990', '#000075', '#e6194B', '#f58231', '#ffe119', '#bfef45', '#3cb44b', '#42d4f4', '#4363d8', '#911eb4', '#f032e6', '#a9a9a9', '#fabed4', '#ffd8b1', '#fffac8', '#aaffc3', '#dcbeff']
    patches, texts, _ = plt.pie(sizes, colors=colors, startangle=90, autopct='%1.1f%%', textprops=dict(color="w"))
    plt.legend(patches, labels, loc="best")
    plt.axis('equal')
@@ -50,3 +52,7 @@ pie(lessons_types_repartition.keys(), lessons_types_repartition.values(), "Lesso
 # steps buildings_repartition
 buildings_repartition = agenda['buildings_repartition']
 pie(buildings_repartition.keys(), buildings_repartition.values(), "Buildings repartition")
+
+# nb total classes and exams
+nb_total_classes = agenda['nb_hours']
+nb_total_exams = agenda['nb_exams']

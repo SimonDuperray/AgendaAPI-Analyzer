@@ -1,134 +1,355 @@
 {
-    "id": 122,
-    "student_id": 41857,
+    "id": 124,
+    "student_id": 46325,
     "agenda_obj": [
         {
-            "IdOp": 329951,
-            "Type": "Projet",
-            "Code": "73",
-            "Libelle": "Pr\u00e9projet - Projet (E4e-Angers LD)",
+            "IdOp": 333625,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Math\u00e9matiques S4 - Cours Magistral (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-14T10:10:00",
+            "Fin": "2022-03-14T12:00:00",
+            "Professeur": "HAUSSY BERNARD",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 326949,
+            "Type": "Travaux Dirig\u00e9s",
+            "Code": "TD",
+            "Libelle": "Anglais S4 - Travaux dirig\u00e9s Groupe 1 (E2-Angers Gr1)",
             "LibelleLong": null,
             "Description": "",
             "Debut": "2022-03-14T13:30:00",
-            "Fin": "2022-03-14T15:15:00",
-            "Professeur": "WOODWARD Richard",
-            "Emplacement": "B314 - EDISON (48)",
+            "Fin": "2022-03-14T14:25:00",
+            "Professeur": "LE BOULICAUT Virginia",
+            "Emplacement": "A307 - EINSTEIN (48)",
             "LesGroupes": [
                 {
-                    "Groupe": "E4e-Angers LD",
-                    "Url": ""
+                    "Groupe": "E2-Angers Gr1",
+                    "Url": "https://teams.microsoft.com/l/team/19%3a9a5f2a0f69ff48eba75d27339038a90a%40thread.tacv2/conversations?groupId=6b8f8c3f-df91-437e-9778-8d0b2c09f5dd&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
                 }
             ],
             "SaisieAbsence": false
         },
         {
-            "IdOp": 327696,
-            "Type": "Travaux Pratiques",
-            "Code": "TP",
-            "Libelle": "Outils de gestion de projets collaboratifs - d\u00e9veloppement - Travaux pratiques Groupe 1 (E4e-Angers LD-Grp1)",
+            "IdOp": 326947,
+            "Type": "Travaux Dirig\u00e9s",
+            "Code": "TD",
+            "Libelle": "Anglais S4 - Travaux dirig\u00e9s Groupe 1 (E2-Angers Gr1)",
             "LibelleLong": null,
             "Description": "",
-            "Debut": "2022-03-15T08:00:00",
-            "Fin": "2022-03-15T12:00:00",
-            "Professeur": "CLAVREUL Micka\u00ebl",
-            "Emplacement": "A209 - BOOLE (24/24)",
-            "LesGroupes": [],
+            "Debut": "2022-03-14T14:25:00",
+            "Fin": "2022-03-14T15:20:00",
+            "Professeur": "LE BOULICAUT Virginia",
+            "Emplacement": "B315 - SHAKESPEARE (28/28)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers Gr1",
+                    "Url": "https://teams.microsoft.com/l/team/19%3a9a5f2a0f69ff48eba75d27339038a90a%40thread.tacv2/conversations?groupId=6b8f8c3f-df91-437e-9778-8d0b2c09f5dd&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
             "SaisieAbsence": false
         },
         {
-            "IdOp": 329969,
+            "IdOp": 328311,
+            "Type": "Travaux Pratiques",
+            "Code": "TP",
+            "Libelle": "Informatique S4 - Travaux pratiques Groupe 1 (E2-Angers Gr1)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-14T15:40:00",
+            "Fin": "2022-03-14T17:30:00",
+            "Professeur": "BELLIARD Claire, CAMP OLIVIER",
+            "Emplacement": "B006 - WEIERSTRASS (32)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers Gr1",
+                    "Url": "https://teams.microsoft.com/l/team/19%3a9a5f2a0f69ff48eba75d27339038a90a%40thread.tacv2/conversations?groupId=6b8f8c3f-df91-437e-9778-8d0b2c09f5dd&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 327084,
+            "Type": "Travaux Pratiques",
+            "Code": "TP",
+            "Libelle": "Electronique S4 - Travaux pratiques Groupe 1 (E2-Angers Gr1)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-15T10:10:00",
+            "Fin": "2022-03-15T12:00:00",
+            "Professeur": "BOUVIER THIERRY",
+            "Emplacement": "A108 - BABBAGE (24)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers Gr1",
+                    "Url": "https://teams.microsoft.com/l/team/19%3a9a5f2a0f69ff48eba75d27339038a90a%40thread.tacv2/conversations?groupId=6b8f8c3f-df91-437e-9778-8d0b2c09f5dd&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 327111,
             "Type": "S\u00e9ance de Cours",
             "Code": "COU",
-            "Libelle": "Techniques avanc\u00e9es en bases de donn\u00e9es relationnelles - Cours magistral (E4e-Angers LD)",
+            "Libelle": "Sciences Physiques S4 - Cours Magistral * (E2-Angers)",
             "LibelleLong": null,
             "Description": "",
             "Debut": "2022-03-15T13:30:00",
-            "Fin": "2022-03-15T15:30:00",
-            "Professeur": "ROUSSEAU Sophie",
-            "Emplacement": "D002 - JEANNETEAU (250)",
+            "Fin": "2022-03-15T15:20:00",
+            "Professeur": "BEN BOUBAKER BILEL",
+            "Emplacement": "A307 - EINSTEIN (48)",
             "LesGroupes": [
                 {
-                    "Groupe": "E4e-Angers LD",
-                    "Url": ""
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
                 }
             ],
             "SaisieAbsence": false
         },
         {
-            "IdOp": 328957,
+            "IdOp": 327000,
             "Type": "S\u00e9ance de Cours",
             "Code": "COU",
-            "Libelle": "Professional Communication - Cours magistral Groupe 7 PC87 (E4e-Angers PC87)",
+            "Libelle": "Math\u00e9matiques S4 - Cours Magistral (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-15T15:40:00",
+            "Fin": "2022-03-15T17:30:00",
+            "Professeur": "HAUSSY BERNARD",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 328397,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Math\u00e9matiques S4 - Cours Magistral  (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-16T08:00:00",
+            "Fin": "2022-03-16T09:50:00",
+            "Professeur": "HAUSSY BERNARD",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 328398,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Fran\u00e7ais S4 - Cours magistral (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-16T10:10:00",
+            "Fin": "2022-03-16T12:00:00",
+            "Professeur": "LE MAT GILLES",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 326880,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Sciences Physiques S4 - Cours Magistral (E2-Angers)",
             "LibelleLong": null,
             "Description": "",
             "Debut": "2022-03-16T13:30:00",
-            "Fin": "2022-03-16T15:30:00",
-            "Professeur": "BIEBER Amanda",
-            "Emplacement": "A413 - GALILEE (28)",
-            "LesGroupes": [],
+            "Fin": "2022-03-16T15:20:00",
+            "Professeur": "COLIN Vincent",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
             "SaisieAbsence": false
         },
         {
-            "IdOp": 329812,
+            "IdOp": 328430,
             "Type": "Travaux Pratiques",
             "Code": "TP",
-            "Libelle": "Technologies web et int\u00e9gration continue - Travaux pratiques (E4e-Angers LD-TWIC)",
+            "Libelle": "Informatique S4 - Travaux pratiques Groupe 1 (E2-Angers Gr1)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-16T15:40:00",
+            "Fin": "2022-03-16T17:30:00",
+            "Professeur": "BELLIARD Claire, CAMP OLIVIER",
+            "Emplacement": "B405 - GALOIS (24)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers Gr1",
+                    "Url": "https://teams.microsoft.com/l/team/19%3a9a5f2a0f69ff48eba75d27339038a90a%40thread.tacv2/conversations?groupId=6b8f8c3f-df91-437e-9778-8d0b2c09f5dd&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 327001,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Math\u00e9matiques S4 - Cours Magistral  (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-17T08:00:00",
+            "Fin": "2022-03-17T09:50:00",
+            "Professeur": "HAUSSY BERNARD",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 327110,
+            "Type": "Travaux Dirig\u00e9s",
+            "Code": "TD",
+            "Libelle": "Sciences Physiques S4 - Travaux pratiques Groupe 1 (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-17T10:10:00",
+            "Fin": "2022-03-17T11:40:00",
+            "Professeur": "COLIN Vincent",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 327046,
+            "Type": "S\u00e9ance de Cours",
+            "Code": "COU",
+            "Libelle": "Electronique S4 - Cours magistral (E2-Angers)",
             "LibelleLong": null,
             "Description": "",
             "Debut": "2022-03-18T08:00:00",
-            "Fin": "2022-03-18T12:00:00",
-            "Professeur": "MORISSEAU Micka\u00ebl",
-            "Emplacement": "A208 - von NEUMANN (24/24)",
-            "LesGroupes": [],
+            "Fin": "2022-03-18T09:50:00",
+            "Professeur": "OUATTARA Issa",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
             "SaisieAbsence": false
         },
         {
-            "IdOp": 329813,
+            "IdOp": 328396,
             "Type": "Travaux Pratiques",
             "Code": "TP",
-            "Libelle": "Technologies web et int\u00e9gration continue - Travaux pratiques (E4e-Angers LD-TWIC)",
+            "Libelle": "Sciences Physiques S4 - Travaux pratiques BBB (E2-Angers)",
+            "LibelleLong": null,
+            "Description": "",
+            "Debut": "2022-03-18T10:10:00",
+            "Fin": "2022-03-18T12:00:00",
+            "Professeur": "BEN BOUBAKER BILEL",
+            "Emplacement": "A307 - EINSTEIN (48)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
+            "SaisieAbsence": false
+        },
+        {
+            "IdOp": 328982,
+            "Type": "Examen",
+            "Code": "EXA",
+            "Libelle": "Sciences Physiques S4 - Examen (E2-Angers)",
             "LibelleLong": null,
             "Description": "",
             "Debut": "2022-03-18T13:30:00",
-            "Fin": "2022-03-18T17:30:00",
-            "Professeur": "MORISSEAU Micka\u00ebl",
-            "Emplacement": "A208 - von NEUMANN (24/24)",
-            "LesGroupes": [],
+            "Fin": "2022-03-18T16:30:00",
+            "Professeur": "",
+            "Emplacement": "A405 - MEITNER (100)",
+            "LesGroupes": [
+                {
+                    "Groupe": "E2-Angers",
+                    "Url": "https://teams.microsoft.com/l/team/19%3abbc53785f5994586b1ba57c45c54e54f%40thread.tacv2/conversations?groupId=49366a96-23dc-4028-8f7f-fd0595f18339&tenantId=4d7ad159-1265-437a-b9f6-2946247d5bf9"
+                }
+            ],
             "SaisieAbsence": false
         }
     ],
     "steps_repartition": {
         "0": 1,
-        "1": 0,
-        "2": 3,
-        "3": 1,
-        "4": 1
+        "1": 1,
+        "2": 0,
+        "3": 12,
+        "4": 2
     },
     "nb_hour_per_lesson": {
-        "Pr\u00e9projet - Projet (E4e-Angers LD)": 1.75,
-        "Outils de gestion de projets collaboratifs - d\u00e9veloppement - Travaux pratiques Groupe 1 (E4e-Angers LD-Grp1)": 4,
-        "Techniques avanc\u00e9es en bases de donn\u00e9es relationnelles - Cours magistral (E4e-Angers LD)": 2,
-        "Professional Communication - Cours magistral Groupe 7 PC87 (E4e-Angers PC87)": 2,
-        "Technologies web et int\u00e9gration continue - Travaux pratiques (E4e-Angers LD-TWIC)": 8
+        "Math\u00e9matiques S4 - Cours Magistral (E2-Angers)": 3.66,
+        "Anglais S4 - Travaux dirig\u00e9s Groupe 1 (E2-Angers Gr1)": 1.84,
+        "Informatique S4 - Travaux pratiques Groupe 1 (E2-Angers Gr1)": 3.66,
+        "Electronique S4 - Travaux pratiques Groupe 1 (E2-Angers Gr1)": 1.83,
+        "Sciences Physiques S4 - Cours Magistral * (E2-Angers)": 1.83,
+        "Math\u00e9matiques S4 - Cours Magistral  (E2-Angers)": 3.66,
+        "Fran\u00e7ais S4 - Cours magistral (E2-Angers)": 1.83,
+        "Sciences Physiques S4 - Cours Magistral (E2-Angers)": 1.83,
+        "Sciences Physiques S4 - Travaux pratiques Groupe 1 (E2-Angers)": 1.5,
+        "Electronique S4 - Cours magistral (E2-Angers)": 1.83,
+        "Sciences Physiques S4 - Travaux pratiques BBB (E2-Angers)": 1.83,
+        "Sciences Physiques S4 - Examen (E2-Angers)": 3
     },
     "teachers_repartition": {
-        "WOODWARD Richard": 1.75,
-        "CLAVREUL Micka\u00ebl": 4,
-        "ROUSSEAU Sophie": 2,
-        "BIEBER Amanda": 2,
-        "MORISSEAU Micka\u00ebl": 8
+        "HAUSSY BERNARD": 7.32,
+        "LE BOULICAUT Virginia": 1.84,
+        "BELLIARD Claire, CAMP OLIVIER": 3.66,
+        "BOUVIER THIERRY": 1.83,
+        "BEN BOUBAKER BILEL": 3.66,
+        "LE MAT GILLES": 1.83,
+        "COLIN Vincent": 3.33,
+        "OUATTARA Issa": 1.83
     },
     "lessons_types_repartition": {
-        "73": 1.75,
-        "TP": 12,
-        "COU": 4
+        "COU": 14.64,
+        "TD": 3.34,
+        "TP": 7.32,
+        "EXA": 3
     },
-    "nb_hours": 18,
-    "nb_exams": 0,
+    "nb_hours": 28,
+    "nb_exams": 1,
     "buildings_repartition": {
-        "A": 4,
-        "B": 1,
+        "A": 13,
+        "B": 3,
         "C": 0,
-        "D": 1
+        "D": 0
     }
 }
