@@ -2,6 +2,7 @@ import json, requests, matplotlib.pyplot as plt, os
 from dotenv import load_dotenv
 from fpdf import FPDF
 from os import listdir
+from datetime import datetime
 
 load_dotenv()
 
@@ -22,7 +23,6 @@ def pie(labels, sizes, title, filename):
    plt.axis('equal')
    plt.tight_layout()
    plt.title(title)
-   # plt.show()
    plt.savefig('./figures/' + filename + '.png', bbox_inches='tight')
    plt.clf()
 
@@ -62,6 +62,14 @@ def create_figures(agenda):
    # nb total classes and exams
    nb_total_classes = agenda['nb_hours']
    nb_total_exams = agenda['nb_exams']
+   fig = plt.figure()
+   ax = fig.add_axes([0,0,1,1])
+   labels = ['Classes', 'Exams']
+   hours = [nb_total_classes, nb_total_exams]
+   ax.bar(labels,hours, width=0.3, color=['#800000', '#e6194B'])
+   plt.title('Total classes and exams')
+   plt.savefig('./figures/classes_and_exams.png', bbox_inches='tight', dpi=75)
+   plt.clf()
 
    print("> Figures created")
 
@@ -69,12 +77,20 @@ create_figures(agenda)
 
 # write pdf file
 def write_pdf():
+   today = str(datetime.date(datetime.now()))
    figures = os.listdir('./figures')
-   pdf = FPDF(orientation='L')
+   pdf = FPDF(orientation='P')
    pdf.set_auto_page_break(0)
+   pdf.add_page(orientation='P')
+   pdf.set_font('Arial', 'B', 20)
+   pdf.image('./data/eseo.png')
+   pdf.text(20, 70, "Weekly Report - "+today)
+   pdf.text(20, 80, "Id: "+str(agenda['student_id']))
+   pdf.image('./figures/classes_and_exams.png', x=20, y=100)
    for figure in figures:
-      pdf.add_page()
-      pdf.image('./figures/'+figure)
+      if figure!="classes_and_exams.png":
+         pdf.add_page(orientation='L')
+         pdf.image('./figures/'+figure)
    pdf.output('./reports/test.pdf', 'F')
    print("> PDF file created")
 write_pdf()
